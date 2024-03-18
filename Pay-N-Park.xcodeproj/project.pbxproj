@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20B9AB0F2BA89A0100B10A0D /* Pay_N_ParkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9AB0E2BA89A0100B10A0D /* Pay_N_ParkApp.swift */; };
+		20B9AB112BA89A0100B10A0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9AB102BA89A0100B10A0D /* ContentView.swift */; };
+		20B9AB132BA89A0400B10A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B9AB122BA89A0400B10A0D /* Assets.xcassets */; };
+		20B9AB162BA89A0400B10A0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B9AB152BA89A0400B10A0D /* Preview Assets.xcassets */; };
+		20B9AB202BA89A0400B10A0D /* Pay_N_ParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9AB1F2BA89A0400B10A0D /* Pay_N_ParkTests.swift */; };
+		20B9AB2A2BA89A0400B10A0D /* Pay_N_ParkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9AB292BA89A0400B10A0D /* Pay_N_ParkUITests.swift */; };
+		20B9AB2C2BA89A0400B10A0D /* Pay_N_ParkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9AB2B2BA89A0400B10A0D /* Pay_N_ParkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20B9AB1C2BA89A0400B10A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20B9AB032BA89A0100B10A0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20B9AB0A2BA89A0100B10A0D;
+			remoteInfo = "Pay-N-Park";
+		};
+		20B9AB262BA89A0400B10A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20B9AB032BA89A0100B10A0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20B9AB0A2BA89A0100B10A0D;
+			remoteInfo = "Pay-N-Park";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20B9AB0B2BA89A0100B10A0D /* Pay-N-Park.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pay-N-Park.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B9AB0E2BA89A0100B10A0D /* Pay_N_ParkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pay_N_ParkApp.swift; sourceTree = "<group>"; };
+		20B9AB102BA89A0100B10A0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20B9AB122BA89A0400B10A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20B9AB152BA89A0400B10A0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20B9AB1B2BA89A0400B10A0D /* Pay-N-ParkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pay-N-ParkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B9AB1F2BA89A0400B10A0D /* Pay_N_ParkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pay_N_ParkTests.swift; sourceTree = "<group>"; };
+		20B9AB252BA89A0400B10A0D /* Pay-N-ParkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pay-N-ParkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B9AB292BA89A0400B10A0D /* Pay_N_ParkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pay_N_ParkUITests.swift; sourceTree = "<group>"; };
+		20B9AB2B2BA89A0400B10A0D /* Pay_N_ParkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pay_N_ParkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20B9AB082BA89A0100B10A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B9AB182BA89A0400B10A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B9AB222BA89A0400B10A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B9AB022BA89A0100B10A0D = {
+			isa = PBXGroup;
+			children = (
+				20B9AB0D2BA89A0100B10A0D /* Pay-N-Park */,
+				20B9AB1E2BA89A0400B10A0D /* Pay-N-ParkTests */,
+				20B9AB282BA89A0400B10A0D /* Pay-N-ParkUITests */,
+				20B9AB0C2BA89A0100B10A0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20B9AB0C2BA89A0100B10A0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20B9AB0B2BA89A0100B10A0D /* Pay-N-Park.app */,
+				20B9AB1B2BA89A0400B10A0D /* Pay-N-ParkTests.xctest */,
+				20B9AB252BA89A0400B10A0D /* Pay-N-ParkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20B9AB0D2BA89A0100B10A0D /* Pay-N-Park */ = {
+			isa = PBXGroup;
+			children = (
+				20B9AB0E2BA89A0100B10A0D /* Pay_N_ParkApp.swift */,
+				20B9AB102BA89A0100B10A0D /* ContentView.swift */,
+				20B9AB122BA89A0400B10A0D /* Assets.xcassets */,
+				20B9AB142BA89A0400B10A0D /* Preview Content */,
+			);
+			path = "Pay-N-Park";
+			sourceTree = "<group>";
+		};
+		20B9AB142BA89A0400B10A0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20B9AB152BA89A0400B10A0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20B9AB1E2BA89A0400B10A0D /* Pay-N-ParkTests */ = {
+			isa = PBXGroup;
+			children = (
+				20B9AB1F2BA89A0400B10A0D /* Pay_N_ParkTests.swift */,
+			);
+			path = "Pay-N-ParkTests";
+			sourceTree = "<group>";
+		};
+		20B9AB282BA89A0400B10A0D /* Pay-N-ParkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20B9AB292BA89A0400B10A0D /* Pay_N_ParkUITests.swift */,
+				20B9AB2B2BA89A0400B10A0D /* Pay_N_ParkUITestsLaunchTests.swift */,
+			);
+			path = "Pay-N-ParkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20B9AB0A2BA89A0100B10A0D /* Pay-N-Park */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B9AB2F2BA89A0400B10A0D /* Build configuration list for PBXNativeTarget "Pay-N-Park" */;
+			buildPhases = (
+				20B9AB072BA89A0100B10A0D /* Sources */,
+				20B9AB082BA89A0100B10A0D /* Frameworks */,
+				20B9AB092BA89A0100B10A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pay-N-Park";
+			productName = "Pay-N-Park";
+			productReference = 20B9AB0B2BA89A0100B10A0D /* Pay-N-Park.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20B9AB1A2BA89A0400B10A0D /* Pay-N-ParkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B9AB322BA89A0400B10A0D /* Build configuration list for PBXNativeTarget "Pay-N-ParkTests" */;
+			buildPhases = (
+				20B9AB172BA89A0400B10A0D /* Sources */,
+				20B9AB182BA89A0400B10A0D /* Frameworks */,
+				20B9AB192BA89A0400B10A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20B9AB1D2BA89A0400B10A0D /* PBXTargetDependency */,
+			);
+			name = "Pay-N-ParkTests";
+			productName = "Pay-N-ParkTests";
+			productReference = 20B9AB1B2BA89A0400B10A0D /* Pay-N-ParkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20B9AB242BA89A0400B10A0D /* Pay-N-ParkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B9AB352BA89A0400B10A0D /* Build configuration list for PBXNativeTarget "Pay-N-ParkUITests" */;
+			buildPhases = (
+				20B9AB212BA89A0400B10A0D /* Sources */,
+				20B9AB222BA89A0400B10A0D /* Frameworks */,
+				20B9AB232BA89A0400B10A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20B9AB272BA89A0400B10A0D /* PBXTargetDependency */,
+			);
+			name = "Pay-N-ParkUITests";
+			productName = "Pay-N-ParkUITests";
+			productReference = 20B9AB252BA89A0400B10A0D /* Pay-N-ParkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20B9AB032BA89A0100B10A0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					20B9AB0A2BA89A0100B10A0D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					20B9AB1A2BA89A0400B10A0D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 20B9AB0A2BA89A0100B10A0D;
+					};
+					20B9AB242BA89A0400B10A0D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 20B9AB0A2BA89A0100B10A0D;
+					};
+				};
+			};
+			buildConfigurationList = 20B9AB062BA89A0100B10A0D /* Build configuration list for PBXProject "Pay-N-Park" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20B9AB022BA89A0100B10A0D;
+			productRefGroup = 20B9AB0C2BA89A0100B10A0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20B9AB0A2BA89A0100B10A0D /* Pay-N-Park */,
+				20B9AB1A2BA89A0400B10A0D /* Pay-N-ParkTests */,
+				20B9AB242BA89A0400B10A0D /* Pay-N-ParkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20B9AB092BA89A0100B10A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B9AB162BA89A0400B10A0D /* Preview Assets.xcassets in Resources */,
+				20B9AB132BA89A0400B10A0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B9AB192BA89A0400B10A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B9AB232BA89A0400B10A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20B9AB072BA89A0100B10A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B9AB112BA89A0100B10A0D /* ContentView.swift in Sources */,
+				20B9AB0F2BA89A0100B10A0D /* Pay_N_ParkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B9AB172BA89A0400B10A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B9AB202BA89A0400B10A0D /* Pay_N_ParkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B9AB212BA89A0400B10A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B9AB2C2BA89A0400B10A0D /* Pay_N_ParkUITestsLaunchTests.swift in Sources */,
+				20B9AB2A2BA89A0400B10A0D /* Pay_N_ParkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20B9AB1D2BA89A0400B10A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20B9AB0A2BA89A0100B10A0D /* Pay-N-Park */;
+			targetProxy = 20B9AB1C2BA89A0400B10A0D /* PBXContainerItemProxy */;
+		};
+		20B9AB272BA89A0400B10A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20B9AB0A2BA89A0100B10A0D /* Pay-N-Park */;
+			targetProxy = 20B9AB262BA89A0400B10A0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20B9AB2D2BA89A0400B10A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20B9AB2E2BA89A0400B10A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20B9AB302BA89A0400B10A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pay-N-Park/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naivedh.Pay-N-Park";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20B9AB312BA89A0400B10A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pay-N-Park/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naivedh.Pay-N-Park";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20B9AB332BA89A0400B10A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naivedh.Pay-N-ParkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pay-N-Park.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pay-N-Park";
+			};
+			name = Debug;
+		};
+		20B9AB342BA89A0400B10A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naivedh.Pay-N-ParkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pay-N-Park.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pay-N-Park";
+			};
+			name = Release;
+		};
+		20B9AB362BA89A0400B10A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naivedh.Pay-N-ParkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pay-N-Park";
+			};
+			name = Debug;
+		};
+		20B9AB372BA89A0400B10A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naivedh.Pay-N-ParkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pay-N-Park";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20B9AB062BA89A0100B10A0D /* Build configuration list for PBXProject "Pay-N-Park" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B9AB2D2BA89A0400B10A0D /* Debug */,
+				20B9AB2E2BA89A0400B10A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B9AB2F2BA89A0400B10A0D /* Build configuration list for PBXNativeTarget "Pay-N-Park" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B9AB302BA89A0400B10A0D /* Debug */,
+				20B9AB312BA89A0400B10A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B9AB322BA89A0400B10A0D /* Build configuration list for PBXNativeTarget "Pay-N-ParkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B9AB332BA89A0400B10A0D /* Debug */,
+				20B9AB342BA89A0400B10A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B9AB352BA89A0400B10A0D /* Build configuration list for PBXNativeTarget "Pay-N-ParkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B9AB362BA89A0400B10A0D /* Debug */,
+				20B9AB372BA89A0400B10A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20B9AB032BA89A0100B10A0D /* Project object */;
+}
