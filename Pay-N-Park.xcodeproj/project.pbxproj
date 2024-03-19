@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		206B75A52BAA1AFE001B1E25 /* InputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206B75A42BAA1AFE001B1E25 /* InputFieldView.swift */; };
 		20B9AB0F2BA89A0100B10A0D /* Pay_N_ParkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9AB0E2BA89A0100B10A0D /* Pay_N_ParkApp.swift */; };
-		20B9AB112BA89A0100B10A0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9AB102BA89A0100B10A0D /* ContentView.swift */; };
 		20B9AB132BA89A0400B10A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B9AB122BA89A0400B10A0D /* Assets.xcassets */; };
 		20B9AB162BA89A0400B10A0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B9AB152BA89A0400B10A0D /* Preview Assets.xcassets */; };
 		20B9AB202BA89A0400B10A0D /* Pay_N_ParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9AB1F2BA89A0400B10A0D /* Pay_N_ParkTests.swift */; };
 		20B9AB2A2BA89A0400B10A0D /* Pay_N_ParkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9AB292BA89A0400B10A0D /* Pay_N_ParkUITests.swift */; };
 		20B9AB2C2BA89A0400B10A0D /* Pay_N_ParkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9AB2B2BA89A0400B10A0D /* Pay_N_ParkUITestsLaunchTests.swift */; };
+		20B9AB3A2BA9FB0B00B10A0D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9AB392BA9FB0B00B10A0D /* Login.swift */; };
+		20B9AB3C2BA9FC6900B10A0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9AB3B2BA9FC6900B10A0D /* ContentView.swift */; };
+		20B9AB3F2BAA16B900B10A0D /* GradientButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B9AB3E2BAA16B900B10A0D /* GradientButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		206B75A42BAA1AFE001B1E25 /* InputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldView.swift; sourceTree = "<group>"; };
 		20B9AB0B2BA89A0100B10A0D /* Pay-N-Park.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pay-N-Park.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B9AB0E2BA89A0100B10A0D /* Pay_N_ParkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pay_N_ParkApp.swift; sourceTree = "<group>"; };
-		20B9AB102BA89A0100B10A0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		20B9AB122BA89A0400B10A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20B9AB152BA89A0400B10A0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		20B9AB1B2BA89A0400B10A0D /* Pay-N-ParkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pay-N-ParkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		20B9AB252BA89A0400B10A0D /* Pay-N-ParkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pay-N-ParkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B9AB292BA89A0400B10A0D /* Pay_N_ParkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pay_N_ParkUITests.swift; sourceTree = "<group>"; };
 		20B9AB2B2BA89A0400B10A0D /* Pay_N_ParkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pay_N_ParkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20B9AB392BA9FB0B00B10A0D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		20B9AB3B2BA9FC6900B10A0D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20B9AB3E2BAA16B900B10A0D /* GradientButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,8 @@
 		20B9AB0D2BA89A0100B10A0D /* Pay-N-Park */ = {
 			isa = PBXGroup;
 			children = (
+				20B9AB382BA9FAE900B10A0D /* Views */,
 				20B9AB0E2BA89A0100B10A0D /* Pay_N_ParkApp.swift */,
-				20B9AB102BA89A0100B10A0D /* ContentView.swift */,
 				20B9AB122BA89A0400B10A0D /* Assets.xcassets */,
 				20B9AB142BA89A0400B10A0D /* Preview Content */,
 			);
@@ -125,6 +131,33 @@
 				20B9AB2B2BA89A0400B10A0D /* Pay_N_ParkUITestsLaunchTests.swift */,
 			);
 			path = "Pay-N-ParkUITests";
+			sourceTree = "<group>";
+		};
+		20B9AB382BA9FAE900B10A0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20B9AB402BAA16F700B10A0D /* Login */,
+				20B9AB3D2BAA168700B10A0D /* shared */,
+				20B9AB3B2BA9FC6900B10A0D /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20B9AB3D2BAA168700B10A0D /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				20B9AB3E2BAA16B900B10A0D /* GradientButtonView.swift */,
+				206B75A42BAA1AFE001B1E25 /* InputFieldView.swift */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		20B9AB402BAA16F700B10A0D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				20B9AB392BA9FB0B00B10A0D /* Login.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20B9AB112BA89A0100B10A0D /* ContentView.swift in Sources */,
+				20B9AB3F2BAA16B900B10A0D /* GradientButtonView.swift in Sources */,
+				20B9AB3A2BA9FB0B00B10A0D /* Login.swift in Sources */,
 				20B9AB0F2BA89A0100B10A0D /* Pay_N_ParkApp.swift in Sources */,
+				206B75A52BAA1AFE001B1E25 /* InputFieldView.swift in Sources */,
+				20B9AB3C2BA9FC6900B10A0D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

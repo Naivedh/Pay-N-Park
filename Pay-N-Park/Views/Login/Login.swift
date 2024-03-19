@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct Login: View {
+    @State var username: String = ""
+    @State var password: String = ""
     var body: some View {
         VStack {
             
@@ -15,6 +17,9 @@ struct Login: View {
                 .font(.largeTitle)
                 .fontWeight(.medium)
                 .padding(.bottom, 42)
+            
+            InputFieldView(data : $username, title : "Username")
+            InputFieldView(data : $password, title : "Password")
             
             GradientButtonView()
             
